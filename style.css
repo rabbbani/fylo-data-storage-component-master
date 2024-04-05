@@ -23,7 +23,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    background-image: url(/images/bg-desktop.png);
+    /* background-image: url(/images/bg-desktop.png); */
     background-repeat: no-repeat;
     background-position: bottom center;
     min-height: 100vh;
@@ -158,6 +158,11 @@ small{
 }
 
 @media screen and (max-width: 560px) {
+    body{
+        background-image: url(/images/bg-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     .container{
         flex-direction: column;
         align-items: center;
